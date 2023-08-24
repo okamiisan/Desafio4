@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Desafío 4</title>
+
+    <!--FOOTER-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+            <div class="nav-title">
+                <div class="nav-g">
+                    <img src="assets/avatar_LOGO.jpg" alt="">
+                    <p>   Avatar: La leyenda de Aang</p>
+                </div>
+            </div>
+        </div>
+        <div class="nav-btn">
+            <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+
+        <div class="nav-links">
+            <a href="#hero">Inicio</a>
+            <a href="#galeria">Personajes</a>
+            <a href="#elemento">Elementos</a>
+            <a href="https://www.netflix.com/ar/title/70142405" class="nhover"><button class="btn-ini">Ver serie</button></a>
+        </div>
+    </div>
+
+    <section class="hero" id="hero">
+        
+        <video autoplay muted loop play-inline class="back-video">
+            <source src="assets/Appa (Avatar_ The Last Airbender) Animated  Wallpaper _ Manicx (1080p).mp4">
+        </video>
+
+        <div class="hero_txt">
+            <h1>Avatar: La leyenda de Aang</h1>
+            <p>La serie sigue las aventuras del protagonista principal, Aang y sus amigos, quienes deben salvar al mundo al derrotar al Señor del Fuego y poner fin a la guerra destructiva con la Nación del Fuego.</p>
+        </div>
+    </section>
+
+    <section class="galeria" id="galeria">
+        <br>
+        <h2>Personajes </h2>
+        <br>
+        <div class="galeria_img">
+            <img src="assets/galeria_aang.jpg" alt="">
+            <img src="assets/galeria_katara.jpg" alt="">
+            <img src="assets/galeria_zokka.jpg" alt="">
+        </div>
+        <br>
+        <div class="galeria_img">
+            <img src="assets/galeria_appa.jpg" alt="">
+            <img src="assets/galeria_momo.jpg" alt="">
+            <img src="assets/galeria_sukoytio.jpg" alt="">
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </section>
+
+
+    <section class="cards" id="elemento">
+        <div class="cards_txt">
+            <h2>Artes de control: ELEMENTOS</h2>
+            <br>
+        </div>
+        
+        <div class="cards-grid">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front" style="background-image: url('https://i.pinimg.com/564x/3a/75/af/3a75afa91a83984ed2c6872d19a2f36c.jpg');">
+
+                    </div>
+                    <div class="flip-card-back-FUEGO">
+                        El Fuego es el elemento del poder, que consiste en la fuerza irresistible atemperada por la voluntad inquebrantable para realizar las tareas y deseos.
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front" style="background-image: url('https://i.pinimg.com/564x/1c/65/2c/1c652c8fd8e641f72284d46d5013418a.jpg');"></div>
+                    <div class="flip-card-back-AIRE">
+                        El Aire es el elemento de la libertad. Los Nómadas Aire se separaron de los problemas y las preocupaciones mundanas, la búsqueda de la paz y la libertad es la clave para resolver sus dificultades en la vida.
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front" style="background-image: url('https://i.pinimg.com/564x/12/bf/d5/12bfd5319546f73d52e15dbac5e785da.jpg');">
+
+                    </div>
+                    <div class="flip-card-back-AGUA">
+                        El Agua es el elemento del cambio. La luna es la fuente de poder del agua, y los Maestros Agua originarios aprendieron observando cómo la luna empujaba y tiraba las mareas. 
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front" style="background-image: url('https://i.pinimg.com/564x/33/19/d5/3319d5beaf801138ca7293e5b2e42887.jpg');">   </div>
+                    <div class="flip-card-back-TIERRA">
+                        La tierra es el elemento de la sustancia, lo que hace a los Maestros Tierra ser gente diversa, fuerte, persistente y duradera. 
+                    </div>
+                </div>
+            </div>
+        </div>
+         
+        </div>
+
+    </section>
+ 
+    <section class="contacto">
+        <div class="contacto_datos">
+            <form>
+                <div class="container">
+                  <h1>Registro</h1>
+                  <p>Suscribete a la comunidad</p>
+                  <label for="username"><b>Nombre completo</b></label>
+                  <input
+                    type="text"
+                    placeholder="Ingrese su nombre completo"
+                    name="username"
+                    id="username"
+                    required
+                  />
+          
+                  <label for="email"><b>Email</b></label>
+                  <input
+                    type="text"
+                    placeholder="Ingrese su email"
+                    name="email"
+                    id="email"
+                    required
+                  />
+          
+                  <label for="pwd"><b>Contraseña</b></label>
+                  <input
+                    type="password"
+                    placeholder="Ingrese contraseña"
+                    name="pwd"
+                    id="pwd"
+                    required
+                  />
+          
+                  <label for="pwd-repeat"><b>Reingresar contraseña</b></label>
+                  <input
+                    type="password"
+                    placeholder="Repita su contraseña"
+                    name="pwd-repeat"
+                    id="pwd-repeat"
+                    required
+                  />
+          
+                  <button type="submit">Registrarse</button>
+                </div>
+          
+                <div>
+                  <br>
+                  <p>Ya tienes una cuenta? <a href="#">Ingresar</a></p>
+                  <br>
+                </div>
+              </form>
+        </div>
+
+        <div class="mapa">
+            <h2>Mapa</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2415450.594611057!2d-71.20232315915766!3d-53.75675925234357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbc4c22cfd9432921%3A0x80ee54358cf0d88d!2sTierra%20del%20Fuego!5e0!3m2!1ses!2sar!4v1692886309222!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+ 
+    <footer class="footer">
+        
+        <div class="footer-content">
+             <h3>Avatar</h3>
+             <p> Nuestras redes</p>
+             <ul class="rrss">
+                 <li><a href="https://www.facebook.com/avatarthelastairbenderla"><i class="fa fa-facebook"></i></a></li>
+                 <li><a href="https://www.instagram.com/avatarthelastairbender/"><i class="fa fa-instagram"></i></a></li>
+                 <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+             </ul>
+        </div>
+ 
+        <div class="footer-bottom">
+         <p>Copyright &copy;2023 WEBDESIGNER  by <span>Rosalia Sanchez</span></p>
+        </div>
+     </footer>
+
+</body>
+
+</html>
